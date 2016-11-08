@@ -1,0 +1,58 @@
+body{
+max-width: 900px;
+background-image: url(http://www.desktopimages.org/pictures/2012/0704/1/orig_561227.jpg);
+}
+
+button {
+	margin: 10px;
+	background-color: #336699;
+	pointer: cursor;
+	clear: both;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+
+
+#superHeroButtons{
+	color: #A52A2A;
+}
+
+button:hover {
+	background-color: black;
+}
+
+img {
+	margin-left: 50px;
+	padding: 15px;
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+
+
+p {
+	float: left;
+	color: white;
+}
+
+input[type=text] {
+    background-color: #3CBC8D;
+    color: white;
+    border: solid black 2px;
+}
+
+#addSuperHero {
+background-color: red;
+color: black;
+font-weight: bolder;
+}
+
+#superHeroInput {
+	color: purple;
+}
+
+#addSuperHero:hover {
+	background-color: green;
+}
